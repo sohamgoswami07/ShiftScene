@@ -1,6 +1,13 @@
 import { gsap } from "gsap";
 
 window.addEventListener("DOMContentLoaded", () => {
+  const cursor = document.getElementById("cursor");
+
+  document.addEventListener("mousemove", (e) => {
+    cursor.style.left = `${e.pageX - cursor.offsetWidth / 2}px`;
+    cursor.style.top = `${e.pageY - cursor.offsetHeight / 2}px`;
+  });
+  
   const videoBg = document.querySelector(".video-background");
   const texts = document.querySelectorAll(".hover-text");
   let currentIndex;
