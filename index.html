@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShiftScene</title>
+    <link rel="stylesheet" href="./src/style.css">
+  </head>
+  <body>
+    <!-- Overlay Layer -->
+    <div class="overlay"></div>
+
+    <!-- Background container -->
+    <div class="video-background">
+        <video class="bg-video active" autoplay muted loop playsinline>
+          <source src="videos/video1.mp4" type="video/mp4">
+        </video>
+        <video class="bg-video" autoplay muted loop playsinline>
+          <source src="videos/video2.mp4" type="video/mp4">
+        </video>
+        <video class="bg-video" autoplay muted loop playsinline>
+          <source src="videos/video3.mp4" type="video/mp4">
+        </video>
+        <video class="bg-video" autoplay muted loop playsinline>
+          <source src="videos/video4.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Contents -->
+    <div class="container">
+      <div class="content">
+        <div class="number-text">
+          <p>01</p>
+        </div>
+        <div class="lower-text">
+          <h1 class="hover-text" data-index="0">3PL</h1>
+          <p class="revealed-text">Vienna is the capital and largest city of Austria, known for its rich history, culture, and architectural heritage.</p>
+          <p class="btn-text">Learn More <img src="./icon/arrow-icon.svg" alt=""></p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="number-text">
+          <p>02</p>
+        </div>
+        <div class="lower-text">
+          <h1 class="hover-text" data-index="1">Logistics</h1>
+          <p class="revealed-text">Vienna is the capital and largest city of Austria, known for its rich history, culture, and architectural heritage.</p>
+          <p class="btn-text">Learn More <img src="./icon/arrow-icon.svg" alt=""></p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="number-text">
+          <p>03</p>
+        </div>
+        <div class="lower-text">
+          <h1 class="hover-text" data-index="2">Yard</h1>
+          <p class="revealed-text">Vienna is the capital and largest city of Austria, known for its rich history, culture, and architectural heritage.</p>
+          <p class="btn-text">Learn More <img src="./icon/arrow-icon.svg" alt=""></p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="number-text">
+          <p>04</p>
+        </div>
+        <div class="lower-text">
+          <h1 class="hover-text" data-index="3">Automation</h1>
+          <p class="revealed-text">Vienna is the capital and largest city of Austria, known for its rich history, culture, and architectural heritage.</p>
+          <p class="btn-text">Learn More <img src="./icon/arrow-icon.svg" alt=""></p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
