@@ -15,6 +15,7 @@ Each section displays a looping background video that shifts on hover, revealing
 
 ## 📸 Preview
 
+<img width="1912" height="942" alt="Screenshot 2025-09-24 170826" src="https://github.com/user-attachments/assets/5542262e-432d-4dec-88ab-b8f0acebf3a4" />
 
 ---
 
